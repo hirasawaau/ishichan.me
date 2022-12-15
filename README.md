@@ -1,42 +1,40 @@
-# Nuxt 3 Minimal Starter
+# Remix example
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## How to use
 
-## Setup
+Download the example [or clone the repo](https://github.com/mui/material-ui):
 
-Make sure to install the dependencies:
+<!-- #default-branch-switch -->
 
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
+```sh
+curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/remix-with-typescript
+cd remix-with-typescript
 ```
 
-## Development Server
+Install it and run:
 
-Start the development server on http://localhost:3000
-
-```bash
+```sh
+npm install
 npm run dev
 ```
 
-## Production
+or:
 
-Build the application for production:
+<!-- #default-branch-switch -->
 
-```bash
-npm run build
-```
+[![Edit on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mui/material-ui/tree/master/examples/remix-with-typescript)
 
-Locally preview production build:
+[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui/material-ui/tree/master/examples/remix-with-typescript)
 
-```bash
-npm run preview
-```
+## The idea behind the example
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+The project uses [Remix](https://remix.run/), which is a full stack web framework that lets you focus on the user interface and work back through web fundamentals to deliver a fast, slick, and resilient user experience.
+It includes `@mui/material` and its peer dependencies, including `emotion`, the default style engine in MUI v5.
+If you prefer, you can [use styled-components instead](https://mui.com/material-ui/guides/interoperability/#styled-components).
+
+## What's next?
+
+<!-- #default-branch-switch -->
+
+You now have a working example project.
+You can head back to the documentation, continuing browsing it from the [templates](https://mui.com/material-ui/getting-started/templates/) section.
