@@ -12,12 +12,15 @@
     "@emotion/react": "11.10.5",
     "@emotion/server": "11.10.0",
     "@emotion/styled": "11.10.5",
+    "@mui/icons-material": "^5.11.0",
     "@mui/material": "5.11.0",
     "@remix-run/node": "1.8.2",
     "@remix-run/react": "1.8.2",
     "@remix-run/serve": "1.8.2",
+    "@remix-run/server-runtime": "1.8.2",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "remix": "1.8.2"
   },
   "devDependencies": {
     "@babel/core": "7",

@@ -6,6 +6,7 @@ specifiers:
   '@emotion/react': 11.10.5
   '@emotion/server': 11.10.0
   '@emotion/styled': 11.10.5
+  '@mui/icons-material': ^5.11.0
   '@mui/material': 5.11.0
   '@remix-run/dev': 1.8.2
   '@remix-run/node': 1.8.2
@@ -24,6 +25,7 @@ dependencies:
   '@emotion/react': 11.10.5_xl5my4wapvq2ctl7qwehtbgorq
   '@emotion/server': 11.10.0
   '@emotion/styled': 11.10.5_3djhvnr4jirfvebjqpipo7gthy
+  '@mui/icons-material': 5.11.0_2q3lgv2yds5td5xef72rojpyny
   '@mui/material': 5.11.0_lskpmcsdi7ipu6qpuapyu56ihm
   '@remix-run/node': 1.8.2_biqbaboplfbrettd7655fr4n2y
   '@remix-run/react': 1.8.2_biqbaboplfbrettd7655fr4n2y
@@ -1489,6 +1491,23 @@ packages:
 
   /@mui/core-downloads-tracker/5.11.0:
     resolution: {integrity: sha512-Bmogung451ezVv2YI1RvweOIVsTj2RQ4Fk61+e/+8LFPLTFEwVGbL0YhNy1VB5tri8pzGNV228kxtWVTFooQkg==}
+    dev: false
+
+  /@mui/icons-material/5.11.0_2q3lgv2yds5td5xef72rojpyny:
+    resolution: {integrity: sha512-I2LaOKqO8a0xcLGtIozC9xoXjZAto5G5gh0FYUMAlbsIHNHIjn4Xrw9rvjY20vZonyiGrZNMAlAXYkY6JvhF6A==}
+    engines: {node: '>=12.0.0'}
+    peerDependencies:
+      '@mui/material': ^5.0.0
+      '@types/react': ^17.0.0 || ^18.0.0
+      react: ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+    dependencies:
+      '@babel/runtime': 7.20.6
+      '@mui/material': 5.11.0_lskpmcsdi7ipu6qpuapyu56ihm
+      '@types/react': 18.0.26
+      react: 18.2.0
     dev: false
 
   /@mui/material/5.11.0_lskpmcsdi7ipu6qpuapyu56ihm:
