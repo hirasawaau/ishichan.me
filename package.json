@@ -1,6 +1,6 @@
 {
-  "name": "remix-with-typescript",
-  "version": "5.0.0",
+  "name": "ishichan.me",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "remix build",

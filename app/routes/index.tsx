@@ -15,8 +15,7 @@ import skills from '../data/skills'
 // https://remix.run/api/conventions#meta
 export const meta: MetaFunction = () => {
   return {
-    title: 'Remix Starter',
-    description: 'Welcome to remix!',
+    title: 'Home',
   }
 }
 
@@ -72,7 +71,6 @@ export default function Index() {
                       <ListItemText primary={skillItem} />
                     </ListItem>
                   ))}
-                  ,
                 </List>
               </div>
             ))}
