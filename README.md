@@ -1,34 +1,40 @@
-# Welcome to Remix!
+# Remix example
 
-- [Remix Docs](https://remix.run/docs)
+## How to use
 
-## Deployment
+Download the example [or clone the repo](https://github.com/mui/material-ui):
 
-After having run the `create-remix` command and selected "Vercel" as a deployment target, you only need to [import your Git repository](https://vercel.com/new) into Vercel, and it will be deployed.
-
-If you'd like to avoid using a Git repository, you can also deploy the directory by running [Vercel CLI](https://vercel.com/cli):
+<!-- #default-branch-switch -->
 
 ```sh
-npm i -g vercel
-vercel
+curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip=2  material-ui-master/examples/remix-with-typescript
+cd remix-with-typescript
 ```
 
-It is generally recommended to use a Git repository, because future commits will then automatically be deployed by Vercel, through its [Git Integration](https://vercel.com/docs/concepts/git).
-
-## Development
-
-To run your Remix app locally, make sure your project's local dependencies are installed:
+Install it and run:
 
 ```sh
 npm install
-```
-
-Afterwards, start the Remix development server like so:
-
-```sh
 npm run dev
 ```
 
-Open up [http://localhost:3000](http://localhost:3000) and you should be ready to go!
+or:
 
-If you're used to using the `vercel dev` command provided by [Vercel CLI](https://vercel.com/cli) instead, you can also use that, but it's not needed.
+<!-- #default-branch-switch -->
+
+[![Edit on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mui/material-ui/tree/master/examples/remix-with-typescript)
+
+[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui/material-ui/tree/master/examples/remix-with-typescript)
+
+## The idea behind the example
+
+The project uses [Remix](https://remix.run/), which is a full stack web framework that lets you focus on the user interface and work back through web fundamentals to deliver a fast, slick, and resilient user experience.
+It includes `@mui/material` and its peer dependencies, including `emotion`, the default style engine in MUI v5.
+If you prefer, you can [use styled-components instead](https://mui.com/material-ui/guides/interoperability/#styled-components).
+
+## What's next?
+
+<!-- #default-branch-switch -->
+
+You now have a working example project.
+You can head back to the documentation, continuing browsing it from the [templates](https://mui.com/material-ui/getting-started/templates/) section.
